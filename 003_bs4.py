@@ -32,22 +32,20 @@ import ssl
 # print(sum)
 
 
-
-#url = 'http://python-data.dr-chuck.net/known_by_Conar.html'
+# url = 'http://python-data.dr-chuck.net/known_by_Conar.html'
 
 
 url = input('Enter URL:')
 count = int(input('Enter count:'))
-position = int(input('Enter position:'))-1
+position = int(input('Enter position:')) - 1
 html = urllib.request.urlopen(url).read()
 
-soup = BeautifulSoup(html,"html.parser")
+soup = BeautifulSoup(html, "html.parser")
 href = soup('a')
-
 
 for i in range(count):
     link = href[position].get('href', None)
-    print (href[position].contents[0])
+    print(href[position].contents[0])
     html = urllib.request.urlopen(link).read()
-    soup = BeautifulSoup(html,"html.parser")
+    soup = BeautifulSoup(html, "html.parser")
     href = soup('a')
