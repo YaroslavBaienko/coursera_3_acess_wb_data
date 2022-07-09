@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "23",
+               "short_name" : "23",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fontans'ka Road",
+               "short_name" : "Fontans'ka Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Prymorsk Raion",
+               "short_name" : "Prymorsk Raion",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Odesa",
+               "short_name" : "Odesa",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Odes'ka city council",
+               "short_name" : "Odes'ka city council",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Odes'ka oblast",
+               "short_name" : "Odes'ka oblast",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Ukraine",
+               "short_name" : "UA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "65000",
+               "short_name" : "65000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fontans'ka Rd, 23, Odesa, Odes'ka oblast, Ukraine, 65000",
+         "geometry" : {
+            "location" : {
+               "lat" : 46.4423347,
+               "lng" : 30.7476591
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.4437057802915,
+                  "lng" : 30.7490080802915
+               },
+               "southwest" : {
+                  "lat" : 46.4410078197085,
+                  "lng" : 30.7463101197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJW4_5A-szxkARfQz8aZuj8b8",
+         "plus_code" : {
+            "compound_code" : "CPRX+W3 Odesa, Odessa Oblast, Ukraine",
+            "global_code" : "8GRGCPRX+W3"
+         },
+         "types" : [ "establishment", "point_of_interest", "university" ]
+      }
+   ],
+   "status" : "OK"
+}

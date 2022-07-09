@@ -17,7 +17,8 @@
 # print("Count:",num)
 # print("Sum:",total)
 
-
+import geopy
+import geopy.distance
 import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
@@ -62,4 +63,10 @@ while True:
     # print(json.dumps(js, indent=4))
 
     pid = js['results'][0]['place_id']
-    print('Place id ',pid)
+    pid1 = js['results'][0]['formatted_address']
+    pid2 =js['results'][0]['geometry']['location']['lat']
+    pid3 = js['results'][0]['geometry']['location']['lng']
+    print('Place id ', pid)
+    print('Adress: ', pid1)
+    print('Latitude: ', pid2)
+    print('Longitude: ', pid3)
